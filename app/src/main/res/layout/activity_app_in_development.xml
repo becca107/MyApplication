@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <!-- Icône de développement -->
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_marginBottom="24dp"
+            android:contentDescription="En construction" />
+
+        <!-- Nom de l'application -->
+        <TextView
+            android:id="@+id/textViewAppName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Application"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#2196F3"
+            android:layout_marginBottom="16dp"
+            android:gravity="center" />
+
+        <!-- Message personnalisé -->
+        <TextView
+            android:id="@+id/textViewMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Message de développement"
+            android:textSize="16sp"
+            android:textColor="#333"
+            android:layout_marginBottom="32dp"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.2"
+            android:padding="16dp"
+            android:background="@drawable/message_background" />
+
+        <!-- Fonctionnalités prévues -->
+        <TextView
+            android:id="@+id/textViewAppFeatures"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fonctionnalités"
+            android:textSize="14sp"
+            android:textColor="#666"
+            android:layout_marginBottom="32dp"
+            android:padding="16dp"
+            android:background="#ffffff"
+            android:lineSpacingMultiplier="1.3" />
+
+        <!-- Bouton retour -->
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Retour au menu"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:background="@drawable/button_background"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="16dp" />
+
+        <!-- Message d'encouragement -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Merci de votre patience !"
+            android:textSize="14sp"
+            android:textColor="#999"
+            android:layout_marginTop="16dp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+</ScrollView>

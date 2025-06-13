@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Nom de l'application -->
+    <string name="main_app_name">Hub Applications</string>
+
+    <!-- Écran principal -->
+    <string name="welcome_title">Hub Applications L3 IIRT</string>
+    <string name="welcome_subtitle">Projet Développement Mobile Android</string>
+    <string name="enter_name_instruction">Veuillez saisir votre nom pour continuer</string>
+    <string name="name_hint">Votre nom</string>
+    <string name="continue_button">Continuer</string>
+    <string name="version_info">Version 1.0 - ESGIS L3 IIRT</string>
+    <string name="name_required">Veuillez saisir votre nom</string>
+
+    <!-- Menu des applications -->
+    <string name="choose_app">Choisissez une application :</string>
+    <string name="app_available">✓ Disponible</string>
+    <string name="apps_note">Note: Seules les applications marquées ✓ sont actuellement fonctionnelles</string>
+
+    <!-- Noms des applications -->
+    <string name="app_1_name">1. To-Do List</string>
+    <string name="app_2_name">2. Calculatrice</string>
+    <string name="app_3_name">3. Contacts</string>
+    <string name="app_4_name">4. Bloc-Notes</string>
+    <string name="app_5_name">5. Chronomètre</string>
+    <string name="app_6_name">6. Convertisseur</string>
+    <string name="app_7_name">7. TopQuiz</string>
+    <string name="app_8_name">8. Lecteur Musique</string>
+    <string name="app_9_name">9. Météo</string>
+    <string name="app_10_name">10. Suivi Dépenses</string>
+
+    <!-- Écran applications en développement -->
+    <string name="features_planned">Fonctionnalités prévues :</string>
+    <string name="back_to_menu">Retour au menu</string>
+    <string name="patience_message">Merci de votre patience !</string>
+    <string name="development_message">Cette application est actuellement en cours de développement. Nous travaillons dur pour vous offrir une expérience exceptionnelle. Revenez bientôt pour découvrir toutes ces fonctionnalités !</string>
+
+    <!-- Descriptions des erreurs -->
+    <string name="error_generic">Une erreur s\'est produite</string>
+    <string name="error_empty_field">Ce champ ne peut pas être vide</string>
+
+    <!-- Icônes (descriptions pour l'accessibilité) -->
+    <string name="icon_person">Icône utilisateur</string>
+    <string name="icon_construction">En construction</string>
+
+        <string name="quizz_app_name">TopQuiz</string>
+        <string name="rebecca_odoua">Rebecca ODOUA</string>
+        <string name="hello_world">Hello world!</string>
+        <string name="bienvenue_dans_topquizz_quel_est_votre_pr_nom">Bienvenue dans TopQuizz. Quel est votre prénom?</string>
+        <string name="entrez_votre_pr_nom">Entrez votre prénom</string>
+        <string name="let_s_plays">Let\'s Plays</string>
+        <string name="bienvenue_quel_est_ton_nom">Bienvenue,Quel est ton nom ?</string>
+        <string name="lets_play">Let\'s Play</string>
+
+</resources>

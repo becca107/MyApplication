@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center"
+    android:background="#f5f5f5">
+
+    <!-- Logo ou titre de l'application -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hub Applications"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#2196F3"
+        android:layout_marginBottom="16dp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Projet Développement Mobile Android"
+        android:textSize="16sp"
+        android:textColor="#666"
+        android:layout_marginBottom="48dp"
+        android:gravity="center" />
+
+    <!-- Icône utilisateur (optionnel) -->
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="Icône utilisateur" />
+
+    <!-- Instructions -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Veuillez saisir votre nom pour continuer"
+        android:textSize="18sp"
+        android:textColor="#333"
+        android:layout_marginBottom="16dp"
+        android:gravity="center" />
+
+    <!-- Champ de saisie du nom -->
+    <EditText
+        android:id="@+id/editTextUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Votre nom"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/edittext_background"
+        android:textColor="#333"
+        android:textColorHint="#999" />
+
+    <!-- Bouton continuer -->
+    <Button
+        android:id="@+id/buttonContinue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continuer"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Version ou info -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version 1.0 - ESGIS L3 IIRT"
+        android:textSize="12sp"
+        android:textColor="#999"
+        android:layout_marginTop="32dp" />
+
+</LinearLayout>

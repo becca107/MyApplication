@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_700">#990000FF</color>
+
+    <!-- Couleurs principales -->
+    <color name="primary_color">#2196F3</color>
+    <color name="primary_dark_color">#1976D2</color>
+    <color name="accent_color">#4CAF50</color>
+
+    <!-- Couleurs d'arrière-plan -->
+    <color name="background_color">#f5f5f5</color>
+    <color name="white">#ffffff</color>
+    <color name="light_gray">#e8e8e8</color>
+
+    <!-- Couleurs pour les textes -->
+    <color name="text_primary">#333333</color>
+    <color name="text_secondary">#666666</color>
+    <color name="text_hint">#999999</color>
+
+    <!-- Couleurs pour les boutons -->
+    <color name="button_primary">#2196F3</color>
+    <color name="button_primary_dark">#1976D2</color>
+    <color name="button_available">#4CAF50</color>
+    <color name="button_available_dark">#388E3C</color>
+    <color name="button_unavailable">#757575</color>
+    <color name="button_unavailable_dark">#616161</color>
+
+    <!-- Couleurs pour les bordures -->
+    <color name="border_light">#ddd</color>
+    <color name="border_medium">#e0e0e0</color>
+
+    <!-- Couleurs pour les messages -->
+    <color name="message_background">#E3F2FD</color>
+    <color name="message_border">#BBDEFB</color>
+
+</resources>

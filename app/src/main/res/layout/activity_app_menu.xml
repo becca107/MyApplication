@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Message de bienvenue -->
+        <TextView
+            android:id="@+id/textViewWelcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bienvenue !\nChoisissez une application :"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#2196F3"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"
+            android:padding="16dp"
+            android:background="@drawable/welcome_background" />
+
+        <!-- Grille des applications -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Ligne 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="12dp">
+
+                <Button
+                    android:id="@+id/btnTodoList"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:text="1. To-Do List"
+                    android:textSize="14sp"
+                    android:layout_marginEnd="6dp"
+                    android:background="@drawable/app_button_background"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/btnCalculator"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:text="2. Calculatrice\n✓ Disponible"
+                    android:textSize="14sp"
+                    android:layout_marginStart="6dp"
+                    android:background="@drawable/app_button_available"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <!-- Ligne 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="12dp">
+
+                <Button
+                    android:id="@+id/btnContacts"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:text="3. Contacts"
+                    android:textSize="14sp"
+                    android:layout_marginEnd="6dp"
+                    android:background="@drawable/app_button_background"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/btnNotes"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:text="4. Bloc-Notes"
+                    android:textSize="14sp"
+                    android:layout_marginStart="6dp"
+                    android:background="@drawable/app_button_background"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <!-- Ligne 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="12dp">
+
+                <Button
+                    android:id="@+id/btnTimer"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:text="5. Chronomètre"
+                    android:textSize="14sp"
+                    android:layout_marginEnd="6dp"
+                    android:background="@drawable/app_button_background"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/btnConverter"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:text="6. Convertisseur"
+                    android:textSize="14sp"
+                    android:layout_marginStart="6dp"
+                    android:background="@drawable/app_button_background"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <!-- Ligne 4 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="12dp">
+
+                <Button
+                    android:id="@+id/btnTopQuiz"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:text="7. TopQuiz\n✓ Disponible"
+                    android:textSize="14sp"
+                    android:layout_marginEnd="6dp"
+                    android:background="@drawable/app_button_available"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/btnMusicPlayer"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:text="8. Lecteur Musique"
+                    android:textSize="14sp"
+                    android:layout_marginStart="6dp"
+                    android:background="@drawable/app_button_background"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <!-- Ligne 5 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="12dp">
+
+                <Button
+                    android:id="@+id/btnWeather"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:text="9. Météo"
+                    android:textSize="14sp"
+                    android:layout_marginEnd="6dp"
+                    android:background="@drawable/app_button_background"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/btnExpenses"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:text="10. Suivi Dépenses"
+                    android:textSize="14sp"
+                    android:layout_marginStart="6dp"
+                    android:background="@drawable/app_button_background"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Note en bas -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Note: Seules les applications marquées ✓ sont actuellement fonctionnelles"
+            android:textSize="12sp"
+            android:textColor="#666"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:padding="8dp"
+            android:background="#e8e8e8" />
+
+    </LinearLayout>
+
+</ScrollView>
